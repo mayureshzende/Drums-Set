@@ -67,6 +67,6 @@ function press(currentKey) {
 var active = document.querySelector("."+ currentKey) ;
 active.classList.add("pressed");
   setTimeout(function() {
-    active.classList.re move("pressed");
+    active.classList.remove("pressed");
   },100);
 }
